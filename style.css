@@ -3,7 +3,37 @@
   padding: 0;
   margin: 0;
 }
-
 html {
   font-size: 62.5%;
+  background: #211D1D;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.header__logo-container {
+  position: absolute;
+  left: 50px;
+}
+.header__logo-container--logo {
+  width: 100px;
+  height: 100px;
+}
+.header__nav-bar {
+  width: auto;
+  margin: 0 auto;
+  align-content: space-between;
+}
+.header__nav-bar a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin: 0 30px;
+}
+.header__nav-bar a:hover {
+  color: blueviolet;
+  text-shadow: 0 0 10px black;
 }
