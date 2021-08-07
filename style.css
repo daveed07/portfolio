@@ -27,9 +27,10 @@ html {
   align-content: space-between;
 }
 .header__nav-bar a {
+  font-family: 'Fira Code', monospace;
   text-decoration: none;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   color: white;
   margin: 0 30px;
 }
@@ -39,12 +40,32 @@ html {
 }
 .main {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 100px);
   text-align: center;
-  padding: 50px 80px 0;
+  padding: 100px 80px 0;
 }
 .main__title {
-  font-family: ;
-  font-size: 6rem;
-  font-weight: ;
+  font-family: 'Fira Code', monospace;
+  font-size: 8rem;
+  color: white;
+}
+.main__subtitle {
+  font-family: 'Fira Code', monospace;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: white;
+}
+.main__sm {
+  margin-top: 20px;
+}
+.main__sm a {
+  margin: 0 20px 0;
+  text-decoration: none;
+  font-family: 'Fira Code', monospace;
+  font-size: 1.5rem;
+  color: blueviolet;
+}
+.main__sm a img {
+  width: 20px;
+  margin-right: 10px;
 }
