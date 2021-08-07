@@ -69,3 +69,33 @@ html {
   width: 20px;
   margin-right: 10px;
 }
+.about-section {
+  width: 100%;
+  height: auto;
+  padding: 100px 300px 100px;
+  background: #313131;
+}
+.profile-container {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+.profile-container__img {
+  width: inherit;
+  border-radius: 250px;
+}
+.about-section {
+  text-align: center;
+}
+.about-section__title {
+  margin-top: 20px;
+  font-family: 'Fira Code', monospace;;
+  font-size: 4rem;
+  color: white;
+}
+.about-section__description {
+  margin-top: 50px;
+  font-family: 'Fira Code', monospace;
+  font-size: 2rem;
+  color: white;
+}
