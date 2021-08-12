@@ -11,22 +11,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <title>David Zúñiga | Web Developer</title>
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <a class="header__logo-container" href="#">
       <img class="header__logo-container--logo" src="https://logikcargo.com/wp-content/uploads/2021/04/logikCargoMmn.svg" alt="logo">
     </a>
     <nav class="header__nav-bar">
       <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Projects</a>
-      <a href="#">Contact</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
-  <main class="main">
-    <h1 class="main__title">Hi! I'm David,<br> Web Developed</h1>
+  <main class="main" id="home">
+    <h1 class="main__title">Hi! I'm David,<br> Web Developer</h1>
     <h2 class=" main__subtitle">Front End Developer / Web Designer</h2>
     <div class="main__sm">
       <a href=""><img src="./Assets/linkedin.svg" alt="">LinkedIn</a>
@@ -34,14 +34,14 @@
       <a href=""><img src="./Assets/github.svg" alt="">GitHub</a>
     </div>
   </main>
-  <section class="about-section">
+  <section class="about-section" id="about">
     <picture class="profile-container">
       <img class="profile-container__img" src="./Assets/profile.jpg" alt="">
     </picture>
     <h2 class="about-section__title">David Zúñiga</h2>
     <p class="about-section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo placeat quasi ab corrupti quisquam minus ullam pariatur, voluptas ipsam tempora, vitae, nobis qui obcaecati natus tempore dolor eveniet est odio.</p>
   </section>
-  <section class="projects-section">
+  <section class="projects-section" id="projects">
     <div class="project-section__container">
       <div class="container__project">
         <a href=""><img class="project__img" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/chris-ried-ieic5Tq8YMk-unsplas_1200x768.jpeg?bEhcYQAShJnLf0Mtu4JYq8YzICfhz2rB&size=770:433" alt=""></a>
@@ -81,7 +81,7 @@
       </div>
     </div>
   </section>
-  <section class="contact-section">
+  <section class="contact-section" id="contact">
     <img src="https://logikcargo.com/wp-content/uploads/2021/04/logikCargoMmn.svg" alt="">
     <div class="contact-section__title-container">
       <h2 class="contact-title">Reach out to me!</h2>
@@ -97,7 +97,8 @@
   </section>
   <footer class="footer">
     <p>©️ 2021 David Zúñiga</p>
-    <button><img src="./Assets/arrow_upward.svg" alt=""></button>
+    <a href="#"><button><img src="./Assets/arrow_upward.svg" alt=""></button></a>
   </footer>
+  <script src="./fixed.js"></script>
 </body>
 </html>
