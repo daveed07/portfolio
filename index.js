@@ -3,4 +3,4 @@ const app = express()
 
 app.use(express.static('./Public'))
 
-app.listen(3000)
+app.listen(6969, '0.0.0.0')

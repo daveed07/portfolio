@@ -224,22 +224,25 @@ html {
 }
 @media only screen and (max-width: 768px) {
   html {
-    width: 187.8vw;
+    width: 100%;
   }
   .header__logo-container {
     position:inherit;
     margin-left: 30px;
   }
+  .header__nav-bar {
+    text-align: center;
+  }
   .header__nav-bar a {
     margin: 0 10px;
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .sticky .header__logo-container {
     position: static;
   }
   .main {
     height: auto;
-    padding: 50px 60px 80px;
+    padding: 50px 40px 80px;
   }
   .main__title {
     font-size: 5.2rem;
@@ -259,7 +262,7 @@ html {
   }
   .about-section__description {
       margin-top: 20px;
-      font-size: 2.6rem;
+      font-size: 2rem;
       line-height: 4rem;
   }
   .project-section__container {
@@ -269,30 +272,33 @@ html {
     width: 100%;
   }
   .project__title {
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
   .project__date {
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
   .project__description {
-    font-size: 2.6rem;
+    font-size: 2rem;
     line-height: 4rem;
   }
   .contact-section img {
     width: 200px;
   }
+  .contact-title {
+    font-size: 4rem;
+  }
   .contact-email {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
   .contact-section__sm a {
-    width: 2.5rem;
+    font-size: 2.2rem;
   }
   .footer p {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .footer button {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   .footer button img {
     width: 40px;
